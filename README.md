@@ -1,4 +1,4 @@
-# pokefocus-com
+# PokeFocus
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-pokefocus-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://pokefocus.com/
+PokeFocus publishes Pokémon card and sealed product market prices and photo‑inspection tools for eBay listings. It aggregates data from TCGplayer and eBay, offering free and paid plans for tracking cards, analyzing listing photos, and providing market insights.
+
+**Areas:** Pokemon · Card · MarketData · Pricing · AI
+
+## PokeFocus on APIs.io
+
+Everything profiled for PokeFocus is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pokefocus-com/](https://apis.io/providers/pokefocus-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [PokeFocus Cards API](https://apis.io/apis/pokefocus-com/pokefocus-com-cards-api/) — The Cards API from PokeFocus — 2 operation(s) for cards.
+- [PokeFocus Market Pulse API](https://apis.io/apis/pokefocus-com/pokefocus-com-market-pulse-api/) — The Market Pulse API from PokeFocus — 1 operation(s) for market pulse.
+- [PokeFocus Sealed API](https://apis.io/apis/pokefocus-com/pokefocus-com-sealed-api/) — The Sealed API from PokeFocus — 2 operation(s) for sealed.
+- [PokeFocus Sets API](https://apis.io/apis/pokefocus-com/pokefocus-com-sets-api/) — The Sets API from PokeFocus — 2 operation(s) for sets.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [PokeFocus Agentic Access](https://apis.io/agentic-access/pokefocus-com/pokefocus-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Card](https://apis.io/schemas/pokefocus-com/pokefocus-com-card/)
+- [CardSearch](https://apis.io/schemas/pokefocus-com/pokefocus-com-card-search/)
+- [MarketPulse](https://apis.io/schemas/pokefocus-com/pokefocus-com-market-pulse/)
+- [SealedProduct](https://apis.io/schemas/pokefocus-com/pokefocus-com-sealed-product/)
+- [SealedSearch](https://apis.io/schemas/pokefocus-com/pokefocus-com-sealed-search/)
+- [Set](https://apis.io/schemas/pokefocus-com/pokefocus-com-set/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Pokefocus Com Context](https://apis.io/jsonld/pokefocus-com/pokefocus-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PokeFocus API Rules](https://apis.io/rules/pokefocus-com/pokefocus-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [PokeFocus Domain Security](https://apis.io/security/pokefocus-com/pokefocus-com-domain-security/)
+- [PokeFocus Vulnerability Disclosure](https://apis.io/security/pokefocus-com/pokefocus-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [PokeFocus Plans Pricing](https://apis.io/plans/pokefocus-com/pokefocus-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pokefocus.com/)
+- [Pricing](https://pokefocus.com/pricing)
+- [Sign up](https://pokefocus.com/sign-up?redirect_url=%2Flistings)
+- [Support](https://pokefocus.com/support)
+- [Terms of service](https://pokefocus.com/terms)
+- [Privacy policy](https://pokefocus.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.5** — developing · rubric 0.28.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 83.9 |
+| Contract quality | 60.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 51.5 |
+
+**Agent readiness 29.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 20.8** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pokefocus-com/](https://apis.io/providers/pokefocus-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PokeFocus: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pokefocus-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
